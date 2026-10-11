@@ -27,10 +27,10 @@ Skills
 
 
 
-HTML5
+HTML
 
 
-CSS3
+CSS
 
 
 JavaScript
