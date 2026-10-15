@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mahmoud Mostafa's personal portfolio and web development journey.">
+  <title>Mahmoud Mostafa | PixelCraft</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Pixel<span>Craft.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="theme-toggle"
+        aria-label="Switch color theme">☀️</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY CREATIVE SPACE</p>
+        <h1>Hi, I'm Mahmoud.<br>
+          I build <span>for the web.</span>
+        </h1>
+        <p class="hero-description">
+          A Computer Science and Artificial Intelligence graduate
+          learning to create modern, responsive, and user-friendly
+          web experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#projects">Explore My Work ↗</a>
+          <a class="button button-secondary" href="#contact">Get in Touch</a>
+        </div>
+
+        <p class="availability">
+          <span class="status-dot"></span>
+          Learning, building, and improving every day.
+        </p>
+      </div>
+
+      <div class="hero-card">
+        <div class="code-window">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <p class="code-muted">// a little about me</p>
+          <p><span class="code-purple">const</span> developer = {</p>
+          <p class="code-indent">name: <span class="code-green">"Mahmoud"</span>,</p>
+          <p class="code-indent">focus: <span class="code-green">"Front-End"</span>,</p>
+          <p class="code-indent">creative: <span class="code-orange">true</span>,</p>
+          <p class="code-indent">learning: <span class="code-green">"JavaScript"</span></p>
+          <p>};</p>
+          <p class="code-cursor">Let's build something great! <span>▍</span></p>
+        </div>
+        <div class="floating-badge">✦ Turning ideas into interfaces</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <p class="eyebrow">GET TO KNOW ME</p>
+      <h2>A little <span>about me.</span></h2>
+      <p class="section-description">
+        I'm a Computer Science and Artificial Intelligence graduate
+        developing my front-end skills through hands-on practice.
+        I enjoy learning how websites work and turning ideas into
+        clear, responsive interfaces. My goal is to keep learning
+        and build projects that solve real problems.
+      </p>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="eyebrow">WHAT I'M LEARNING</p>
+      <h2>My current <span>toolkit.</span></h2>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-icon">🌐</span>
+          <h3>HTML5</h3>
+          <p>Page structure and semantic markup</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">🎨</span>
+          <h3>CSS3</h3>
+          <p>Layouts, styling, and responsive design</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">⚡</span>
+          <h3>JavaScript</h3>
+          <p>Learning interactive web experiences</p>
+        </article>
+        <article class="skill-card">
+          <span class="skill-icon">🔧</span>
+          <h3>Git & GitHub</h3>
+          <p>Version control and project sharing</p>
+        </article>
+      </div>
+      <p class="small-note">
+        This toolkit reflects my current learning stage and will grow
+        as I build more projects.
+      </p>
+    </section>
+
+    <section class="section container" id="projects">
+      <p class="eyebrow">A WORK IN PROGRESS</p>
+      <h2>My <span>projects.</span></h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual project-visual-one">
+            <span class="project-symbol">✦</span>
+            <span>01 / FIRST PROJECT</span>
+          </div>
+          <div class="project-info">
+            <h3>PixelCraft Portfolio</h3>
+            <p>
+              A personal portfolio website built to practice HTML,
+              CSS, responsive layouts, and JavaScript interactions.
+            </p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <span class="project-status">Currently building</span>
+          </div>
+        </article>
+
+        <article class="project-card project-placeholder">
+          <div class="placeholder-icon">＋</div>
+          <h3>Next project coming soon</h3>
+          <p>More ideas, more practice, more things to build.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-content">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an idea?<br><span>Let's talk.</span></h2>
+        <p>I'm always looking to learn, connect, and grow.</p>
+        <a class="button button-primary"
+          href="https://github.com/mahmoudmustafa5"
+          target="_blank" rel="noopener noreferrer">
+          Find me on GitHub ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Mahmoud Mostafa · Built with curiosity.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+</body>
+</html>
